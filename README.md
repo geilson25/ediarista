@@ -1,6 +1,6 @@
-#Semana Multi Stack - Front End
+# Semana Multi Stack - Front End
 
-###Checklist do projeto Front-end da Semana Multi Stack TreinaWeb
+### Checklist do projeto Front-end da Semana Multi Stack TreinaWeb
 
 🔗 [Repositório - GitHub](https://github.com/treinaweb/treinaweb-workshop-multistack-react)
 
