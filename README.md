@@ -58,7 +58,7 @@ Em caso de erro no Windows, executar:
 
 - [ ]  Configurar tema
     - [ ]  Criar arquivo do Tema
-    - 🎨 Tema (clique aqui para abrir)
+    - [ ]  🎨 Tema (clique aqui para abrir)
     - [ ]  Adicionar Provider
     - [ ]  Adicionar Fonte
     - [ ]  Definir fonte no CSS
