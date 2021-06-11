@@ -56,12 +56,12 @@ Em caso de erro no Windows, executar:
 
     `npm i @material-ui/core@next @emotion/react @emotion/styled axios react-input-mask`
 
-- [ ]  Configurar tema
-    - [ ]  Criar arquivo do Tema
-    - [ ]  🎨 Tema (clique aqui para abrir)
-    - [ ]  Adicionar Provider
-    - [ ]  Adicionar Fonte
-    - [ ]  Definir fonte no CSS
+- [X]  Configurar tema
+- [X]  Criar arquivo do Tema
+- [X]  🎨 Tema
+- [X]  Adicionar Provider
+- [X]  Adicionar Fonte
+- [X]  Definir fonte no CSS
 
 ## Problemas comuns
 
