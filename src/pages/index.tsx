@@ -2,10 +2,21 @@ import SafeEnvironment from 'ui/components/feedback/SafeEnvironment/SafeEnvironm
 import PageTitle from 'ui/components/data-display/PageTitle/PageTitle';
 import UserInformation from 'ui/components/data-display/UserInformation/UserInformation';
 import TextFieldMask from 'ui/components/inputs/TextFieldMask/TextFieldMask';
-import { Button, Typography, Container } from '@material-ui/core';
-import { FormElementsContainer, ProfissionaisPaper, ProfissionaisContainer } from 'ui/styles/pages/index.style';
+import { 
+  Button, 
+  Typography, 
+  Container 
+} from '@material-ui/core';
+import { 
+  FormElementsContainer, 
+  ProfissionaisPaper, 
+  ProfissionaisContainer 
+} from 'ui/styles/pages/index.style';
+import useIndex from 'data/hooks/pages/useIndex.page';
 
 export default function Home() {
+  const { cep, setCep } = useIndex();
+
   return(
     <div>
       <SafeEnvironment />
@@ -13,6 +24,7 @@ export default function Home() {
         title={'Conheça os Profissionais'} 
         subtitle={'Preencha seu endereço e veja todos os profissionais da sua localidade.'}
         />
+
 
       <Container>
 
@@ -22,8 +34,10 @@ export default function Home() {
             label={'Digite seu CEP'} 
             fullWidth
             variant={'outlined'}
+            value={cep}
+            onChange={(event) => setCep(event.target.value)}
           />
-
+          
           <Typography color={'error'} >CEP inválido</Typography>
 
           <Button
@@ -77,7 +91,7 @@ export default function Home() {
           </ProfissionaisContainer>
         </ProfissionaisPaper>
 
-    </Container>
+      </Container>
     
     </div>
 
